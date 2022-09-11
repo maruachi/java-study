@@ -15,7 +15,7 @@ abstract class MyEnum<T extends MyEnum<T>> implements Comparable<T>{
     public int ordinal() {
         return ordinal;
     }
-¡
+
     public int compareTo(T t){
         return ordinal - t.ordinal();
     }
