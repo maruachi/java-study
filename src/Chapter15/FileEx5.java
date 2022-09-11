@@ -40,7 +40,7 @@ public class FileEx5 {
                 String name2 = ((File)o2).getName().toLowerCase();
 
                 int result = 0;
-
+                
                 switch (option){ //여기 들여쓰기가 안 됨?? why??
                     case 't':
                         return (int)(time1 - time2);
