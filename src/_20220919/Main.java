@@ -1,11 +1,10 @@
-package _20220915;
+package _20220919;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws IOException {
         String string = "Hello, world. IO 안녕하세요";
 
         OutputStream outputStream = new FileOutputStream("example.txt");
