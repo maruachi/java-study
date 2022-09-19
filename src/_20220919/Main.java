@@ -19,7 +19,7 @@ public class Main {
             int len = inputStream.read(buffer);
             if (len == -1) {
                 break;
-            }
+            }Copy
             outputStream1.write(buffer, 0, len);
         }
         outputStream1.flush();
