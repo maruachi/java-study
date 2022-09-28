@@ -9,6 +9,7 @@ public class Copy {
         OutputStream fos = new FileOutputStream("example.txt");
         OutputStreamWriter osw = new OutputStreamWriter(fos, StandardCharsets.UTF_8);
         osw.write(string);
+//        스트림으로 인코딩을 강제할 수 있다.
         osw.flush();
         osw.close();
 
